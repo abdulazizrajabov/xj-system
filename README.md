@@ -27,3 +27,32 @@ Sistemada ikki xildagi foydalanuvchi turlari ko'zda tutilgan bo'ladi.
 Birinchi turdagi foydalanuvchi administrator. Unga barcha foydalanuvchilarni 
 ma'lumotlarini edit, delete, create funksiyalari va ma'lumotlarini ko'rish
 va o'zgartirish imkoniyati mavjud bo'ladi
+
+
+## 2.2. Registratsiya 
+
+Sistemada registratsiyadan o'tish harkimga ham ochiq, sistemaga faqatgina
+xj-business.com sayti orqali kimdirning taklifi orqaligina registratsiyadan
+o'tish mumkin. Ya'ni partnyor id raqami (pozivnoyi) bo'lmasa registratsiya
+qila olmaydi  
+
+Hozirda saytda 3 qadam orqali quyidagi fieldlarni to'ldirib registratsiya 
+qilish mumkin. 
+
+1-qadam:
+* Sponsor ID raqami - majburiy
+* Ismi - majburiy
+* Familyasi - majburiy
+* Sharifi - majburiy
+
+2-qadam:
+* Elektron pochta manzili - majburiy
+* Pasport seriya va raqami - majburiy
+* Pasport kim tomonidan berilganligi - majburiy
+* Shaxsning INNsi - majburiy
+
+3-qadam:
+* Telefon raqami - majburiy
+* Parol - majburiy
+* Takroriy parol - majburiy
+* Shartnomani qabul qilganligi to'g'risida checkbox - majburiy
