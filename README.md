@@ -95,7 +95,6 @@ https://telegra.ph/file/b3cd8c8b5e1d4c1c27d9a.jpg
 3. Yangi foydalanuvchini joylashtirish funksiyasi
 4. Har bir foydalanuvchini ma'lumotlarini ko'rish funksiyasi
 5. Daromad hisoblash logikasi
-6. Аналитика
 
 Dizayni bo'yicha biriktirilgan rasmdagidek shaklda, iloji boricha qulayroq qilinishi kerak. 
 Pasdagi strelkani bossa pasga qarab ketaverishi kerak, ya'ni pasga va tepaga chiqishlarni
@@ -119,7 +118,7 @@ Quyida keltirilganlar darajalar va u darajaga yetish shartlari keltirilgan:
 
 ### 2.4.2. Chap va o'ng qanotlar
 
-
+❓❓❓
 
 
 ### 2.4.3. Yangi foydalanuvchini joylashtirish funksiyasi
@@ -127,3 +126,44 @@ Quyida keltirilganlar darajalar va u darajaga yetish shartlari keltirilgan:
 https://telegra.ph/file/a4e44047ea5cfc4548efb.jpg ushbu rasmda ko'rsatilganiday bo'sh qanotlarga yangi qo'shilgan child foydalanuvchilarni biriktirish imkoniyati bor.
 Har bir qo'shilganfoydalanuvchi kimningdir child foydalanuvchisi bo'lib ro'yxatdan o'tadi. Childning parentigina faqat❓ sistemada uni chap yoki o'ng qanotiga joylashtirish
 imkoni bor . Joylashtirmagunicha u child foydalanuvchi pending bo'lib turadi. Agar pending child lar bo'lmasa ushbu ko'rinishdagiday narsa chiqib turadi: https://telegra.ph/file/64c63faaf669da6770d72.jpg 
+
+### 2.4.4. Har bir foydalanuvchini ma'lumotlarini ko'rish funksiyasi
+
+Har bir foydalanuvchini ustiga bir martta bosilsa uni ma'lumotlari popup ko'rinishida chiqib kelishi kerak. 
+example: https://telegra.ph/file/d5b440f3b189013447d8f.jpg
+
+
+### 2.4.5. Daromad hisoblash logikasi
+
+https://telegra.ph/file/39ce00b8c314588078611.jpg Batafsil ma'lumot olinishi kerak❓❓❓ АП - активный партнер, ya'ni aktiv statusdagi child foydalanuvchi.
+
+
+## 2.5. Dokumentlar
+
+Dokumentlar bo'limida hech qanday amal bajarilmaydi, faqatgina ma'lumot olish manbai bo'lib xizmat qila oladi.
+
+### 2.5.1. Darajalar bo'yicha ma'lumotnoma
+
+8 turdagi darajalarni har biri bo'yicha alohida ma'lumot berilgan bo'ladi. Bu ma'lumotlar jadval ko'rinishida saqlanadi va u kamdan kam o'zgartiriladi.
+Agar mumkin bo'lsa o'zgartirish funksiyasi qilinadi.
+
+### 2.5.2. Polojeniye
+
+Dokumentatsiya ko'rinishidagi terminlar va kerakli informatsiyalar jamlangan text ko'rinishidagi ma'lumot.
+Agar mumkin bo'lsa o'zgartirish funksiyasi qilinadi. https://telegra.ph/file/dd249a26ef078aab21fba.jpg
+
+### 2.5.3. User turlari bo'yicha ma'lumotnoma.
+
+Icon yoniga text ko'rinishida qilib ketilaveradi. Ma'lumotlar 2.4.1. punktdan olinadi. Example: https://telegra.ph/file/8e49691db8d4fdc7fee1d.jpg
+
+
+## 2.6. Moliyaviy jadval
+
+Molivayiv jadvalga o'tish knopkasini saytni tepa qismiga alohida button qilib qo'shsa ham bo'ladi.
+Popup chiqib ushbu ma'lumotlar keltirilishi kerak bo'ladi:
+
+* Sof daromad
+* Kam qanotdagi (chap yoki o'ng) aktiv child userlar soni
+* Bonus summasi: har bir foydalanuvchi uchun alohidami yoki obshiy birxilmi ❓❓❓
+
+bu joylari kerakmi https://telegra.ph/file/63b8748aba11679f84b7d.jpg ❓❓❓
