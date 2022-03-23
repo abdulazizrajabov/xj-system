@@ -63,12 +63,10 @@ Statusi esa unverified bo'lib turadi
 
 ## 2.3. Autentifikatsiya va avtorizatsiya
 
-Saytda ro'yxatdan o'tilganidan keyin ko'rsatilgan emailga verification linki yuboriladi.
-Shu link orqali o'tganda sistemaga avtomatik ravishda kiradi. Statusi verified ga 
-o'zgartiriladi
+Aktivatsiya jarayoni to'lov qilinishi bilan belgilanadi. To'lov qilmaganlar pending bo'lib turaveradi.
 
 Avtorizatsiya quyidagi fieldlar orqali amalga oshiriladi:
-* Login (tel raqami yoki emaili) - majburiy
+* Login (id beriladi) - majburiy
 * Boshida tanlagan paroli - majburiy
 
 Shu bilan birga sbros parol qilish imkoniyati bo'lishi kerak, sbros qilinganda emailga 
@@ -167,3 +165,4 @@ Popup chiqib ushbu ma'lumotlar keltirilishi kerak bo'ladi:
 * Bonus summasi: har bir foydalanuvchi uchun alohidami yoki obshiy birxilmi ❓❓❓
 
 bu joylari kerakmi https://telegra.ph/file/63b8748aba11679f84b7d.jpg ❓❓❓
+
