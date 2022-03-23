@@ -56,3 +56,36 @@ qilish mumkin.
 * Parol - majburiy
 * Takroriy parol - majburiy
 * Shartnomani qabul qilganligi to'g'risida checkbox - majburiy
+
+Saytda kiritilgan ma'lumotlar esa sistema bazasiga foydalanuvchi sifatida qo'shiladi.
+Statusi esa unverified bo'lib turadi
+
+
+## 2.3. Autentifikatsiya va avtorizatsiya
+
+Saytda ro'yxatdan o'tilganidan keyin ko'rsatilgan emailga tasdiqlash linki yuboriladi.
+Shu link orqali o'tganda sistemaga avtomatik ravishda kiradi. Statusi verified ga 
+o'zgartiriladi
+
+Avtorizatsiya quyidagi fieldlar orqali amalga oshiriladi:
+* Login (tel raqami yoki emaili) - majburiy
+* Boshida tanlagan paroli - majburiy
+
+Shu bilan birga sbros parol qilish imkoniyati bo'lishi kerak, sbros qilinganda emailga 
+xat keladi va shu xatdagi link orqali parolini sbros qilishi mumkin. Xat noreply@xj-business.com 
+manzilidan kelishi kerak
+
+Avtorizatsiyadan so'ng foydalanuvchi o'zining shaxsiy kabinetiga tushadi. Shaxsiy kabinetta
+quyidagi keltirilgan funksiyalar joylashishi kerak:
+
+1. Foydalanuvchilar daraxti
+2. Dokumentlar
+3. Moliyaviy jadval
+4. Shaxsiy kabinet
+5. Taklif etilganlar ro'yxati
+6. Yangiliklar
+
+## 2.4. Foydalanuvchilar daraxti
+
+Foydalanuvchilar daraxti bu registratsiyada kimdirning tagidan kimdir yozilishi. 
+https://telegra.ph/file/b3cd8c8b5e1d4c1c27d9a.jpg
