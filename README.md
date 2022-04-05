@@ -20,14 +20,19 @@ Sistema quyidagi asosiy bloklardan tashkil topadi:
 6. Taklif etilganlar ro'yxati
 7. Yangiliklar
 
-
 ## 2.1. Foydalanuvchi turlari
 
 Sistemada ikki xildagi foydalanuvchi turlari ko'zda tutilgan bo'ladi. 
+
+### 2.1.1. Administrator
+
 Birinchi turdagi foydalanuvchi administrator. Unga barcha foydalanuvchilarni 
 ma'lumotlarini edit, delete, create funksiyalari va ma'lumotlarini ko'rish
 va o'zgartirish imkoniyati mavjud bo'ladi
 
+### 2.1.2. Member
+
+Member - shu sistemaning qatnashchilari. Ya'ni bular bir birini tagidan yozilib, daraxt hosil qilishi mumkin, bonuslarga ega bo'lib har bir member pul ko'rinishida daromad olishlari mumkin
 
 ## 2.2. Registratsiya 
 
@@ -69,11 +74,6 @@ Avtorizatsiya quyidagi fieldlar orqali amalga oshiriladi:
 * Login (id beriladi) - majburiy
 * Boshida tanlagan paroli - majburiy
 
-### 2.3.1. Sbros parol
-
-Shu bilan birga sbros parol qilish imkoniyati bo'lishi kerak, sbros qilinayoganda emailga 
-xat keladi va shu xatdagi link orqali parolini sbros qilishi mumkin. Xat noreply@xj-business.com 
-manzilidan kelishi kerak. Xatni example: https://nago.laborasyon.com/demos/layouts/default/mailing.html
 
 ### 2.3.2. Logindan keyin qilinadigan ishlar
 
@@ -246,3 +246,5 @@ Jadval ko'rinishida berilgan bo'ladi. Quyida ko'rsatilgan taritbda beriladi:
 * Unvoni (eg Bronza, Silver)
 * Telefon raqami
 * Emaili
+
+# 3. Administrator qismi
