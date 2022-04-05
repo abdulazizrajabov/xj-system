@@ -69,13 +69,13 @@ Avtorizatsiya quyidagi fieldlar orqali amalga oshiriladi:
 * Login (id beriladi) - majburiy
 * Boshida tanlagan paroli - majburiy
 
-## 2.3.1. Sbros parol
+### 2.3.1. Sbros parol
 
 Shu bilan birga sbros parol qilish imkoniyati bo'lishi kerak, sbros qilinayoganda emailga 
 xat keladi va shu xatdagi link orqali parolini sbros qilishi mumkin. Xat noreply@xj-business.com 
-manzilidan kelishi kerak
+manzilidan kelishi kerak. Xatni example: https://nago.laborasyon.com/demos/layouts/default/mailing.html
 
-## 2.3.2. Logindan keyin qilinadigan ishlar
+### 2.3.2. Logindan keyin qilinadigan ishlar
 
 Keyinchalik popup funksiyasidan foydalangan holda kirgandan yangiliklarni taqdim etiladigan qilsak bo'ladi
 
@@ -195,3 +195,54 @@ Popup chiqib ushbu ma'lumotlar keltirilishi kerak bo'ladi:
 
 ## 2.7. Shaxsiy kabinet
 
+Tab ko'rinishida bo'ladi. Quyidagi keltirilgan 3 ta tabdan iborat bo'ladi:
+
+* Sistemadagi ma'limotlar
+* Rekvizitlar
+* Shaxsiy ma'lumotlar
+
+### 2.7.1. Sistemadagi ma'lumotlar
+
+https://telegra.ph/file/4ed1890c61ddc52e7e1f4.jpg Bazadan quyidagi ma'lumotlarni olib berishi kerak bo'ladi:
+
+* Sponsor ID raqami (ya'ni parent user)
+* FISh sponsorniki
+* ID raqam (child userniki)
+* Familya
+* Ism
+* Otchestvo
+* Email
+* Telefon raqam
+* Yangi parol
+* Yangi parolni takrorlash (save qilinganidan keyin parolni yangilab qo'yadi)
+
+### 2.7.2. Rekvizitlar
+
+https://telegra.ph/file/1fd3f4b8e15e75e45db7b.jpg Bazadan quyidagi ma'lumotlarni olib berishi kerak bo'ladi:
+
+* Karta raqami
+* Karta egasining ism familyasi
+
+### 2.7.3. Shaxsiy ma'lumotlar
+
+https://telegra.ph/file/b3ef86be40e0246fee60d.jpg Bazadan quyidagi ma'lumotlarni olib berishi kerak bo'ladi va o'zgartirish imkoni ham bo'lishi kerak:
+
+* Tug'ilgan yili oyi kuni (datepicker foydalaniladi va limit qo'yiladi 18 yoshdan kattalar tanlanishi uchun)
+* Shaxar
+* Tug'ilgan joyi
+* Pasport seriya va raqami - majburiy
+* Pasport kim tomonidan berilganligi - majburiy
+* Shaxsning INNsi - majburiy
+
+## 2.8. Shaxsan taklif etilganlar ro'y'xati
+
+Jadval ko'rinishida berilgan bo'ladi. Quyida ko'rsatilgan taritbda beriladi:
+
+* Tartib raqami
+* Login (ya'ni childning ID raqami)
+* FISh
+* Qachon ro'yxatdan o'tganligi
+* Oxirgi martaa aktivatsiya qilgan sanasi
+* Unvoni (eg Bronza, Silver)
+* Telefon raqami
+* Emaili
