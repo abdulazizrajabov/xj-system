@@ -69,6 +69,16 @@ Avtorizatsiya quyidagi fieldlar orqali amalga oshiriladi:
 * Login (id beriladi) - majburiy
 * Boshida tanlagan paroli - majburiy
 
+## 2.3.1. Sbros parol
+
+Shu bilan birga sbros parol qilish imkoniyati bo'lishi kerak, sbros qilinayoganda emailga 
+xat keladi va shu xatdagi link orqali parolini sbros qilishi mumkin. Xat noreply@xj-business.com 
+manzilidan kelishi kerak
+
+## 2.3.2. Logindan keyin qilinadigan ishlar
+
+Keyinchalik popup funksiyasidan foydalangan holda kirgandan yangiliklarni taqdim etiladigan qilsak bo'ladi
+
 Avtorizatsiyadan so'ng foydalanuvchi o'zining shaxsiy kabinetiga tushadi. Shaxsiy kabinetta
 quyidagi keltirilgan funksiyalar joylashishi kerak:
 
@@ -169,7 +179,7 @@ Agar mumkin bo'lsa o'zgartirish funksiyasi qilinadi. https://telegra.ph/file/dd2
 
 ### 2.5.3. User turlari bo'yicha ma'lumotnoma.
 
-(2.5.1 ga joylashtirib ketiladi) Icon yoniga text ko'rinishida qilib ketilaveradi. Ma'lumotlar 2.4.1. punktdan olinadi. Example: https://telegra.ph/file/8e49691db8d4fdc7fee1d.jpg
+Icon yoniga text ko'rinishida qilib ketilaveradi. Ma'lumotlar 2.4.1. punktdan olinadi. Example: https://telegra.ph/file/8e49691db8d4fdc7fee1d.jpg
 
 
 ## 2.6. Moliyaviy jadval
@@ -179,9 +189,9 @@ Popup chiqib ushbu ma'lumotlar keltirilishi kerak bo'ladi:
 
 * Joriy sof daromad "Kam qanotdagi (chap yoki o'ng) aktiv child userlar soni" x "Bonus summasi: har bir foydalanuvchi uchun birxil" = "Joriy sof daromad"
 * Kam qanotdagi (chap yoki o'ng) aktiv child userlar soni
-* Bonus summasi: har bir foydalanuvchi uchun birxil example: = 3$
+* Bonus summasi: har bir foydalanuvchi uchun birxil
 * Qachongacha aktivligi: sanasi va vaqti
-* yonida znachoki chiqib turishi kerak, Katta bonus uchun ko'rsatilinadigan unvoni (example: bronza)
+* Katta bonus uchun hisoblanadigan 
 
-## 2.7. Lichni kabinet
-## 2.8. Novosti
+## 2.7. Shaxsiy kabinet
+
