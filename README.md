@@ -248,3 +248,21 @@ Jadval ko'rinishida berilgan bo'ladi. Quyida ko'rsatilgan taritbda beriladi:
 * Emaili
 
 # 3. Administrator qismi
+
+Administrator qismida faqatgina ma'lumotlarni o'zgartirish va qo'shish funksiyasi qilinadi. Qanday tartibda qilinishi muhim emas, qilinsa bo'ldi.
+
+* Foydalanuvchilarni ma'lumotlarini o'zgartirish funksiyasi (barcha nimaiki ma'lumoti bo'lsa shu jumladan balansini ham o'zgartirish funksiyasi)
+* Unvonlarni qo'shish o'zgartirish funksiyasi
+* Dokument ya'ni instruksiyani o'zgartirish funksiyasi
+
+## 3.1. Foydalanuvchilarni ma'lumotlarini ko'rish va o'zgartirish funksiyasi
+
+Bu bo'limda kerakli foydalanuvchini qidirib topib unga o'zgartirish kiritish yoki prosta ko'rish imkoniyati bo'lishi kerak. Bu asosan balans o'zgartirish va registratsiyada qabul qilinmaydigan ma'lumotlarni admin qo'lda yozib qo'yish imkoniyati bo'lishi uchun kerak
+
+## 3.2. Unvonlarni qo'shish o'zgartirish funksiyasi
+
+Bu bo'limda biz databasega ma'lumotlarni oddiy qo'shadigan o'zgartiradigan va o'chiradigan funksiya qo'shib qo'ysak bo'ldi shu jumladan rasmni ham (user icon uchun)
+
+## 3.3. Dokument
+
+HTML edit qiladigan joy ochib qo'yilsa bo'ldi. H teglar p teglarini qo'lda kiritilaveradi.
